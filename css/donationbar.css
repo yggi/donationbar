@@ -1,0 +1,32 @@
+.donationbar {
+ width: 25px;
+ height: 215px;
+ position: relative;
+ background: url(http://i48.tinypic.com/290tvnk.png) no-repeat scroll 0pt 0pt transparent;
+}
+
+.donationbar-value {
+ font-family: Segoe UI,Arial,sans-serif;
+ position: absolute;
+ display: block;
+ margin: 0;
+ border: 0;
+ width: 15px;
+ height: 200px;
+ top: 7px;
+ left: 5px;
+ overflow: hidden;
+ text-indent: -30px;
+ background: url(http://i45.tinypic.com/minc5g.png) repeat scroll center center #0f0;
+}
+
+.donationbar-cover {
+ position: absolute;
+ display: block;
+ width: 15px;
+ height: 200px;
+ border: 0;
+ left: 0;
+ bottom: 0%;
+ background: url(http://i49.tinypic.com/1zwge3s.png) repeat-x scroll 0 0 transparent;
+}

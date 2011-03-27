@@ -1,0 +1,12 @@
+donationbar
+=======
+
+by Sebastian Steuer <iggy@muc.ccc.de>
+
+A simple vertical bar, visualizing the current amount of donations in relation to a given target.
+
+Written in javascript (jquery) and css.
+
+
+
+Documentation: tbd (haha)
