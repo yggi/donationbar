@@ -6,13 +6,22 @@
 		<script type="text/JavaScript" src="js/jquery-1.5.1.min.js"></script>
 		<script type="text/JavaScript" src="js/donationbar.js"></script>
 		
+		
 	</head>
 
 	<body>
-		<div class="donationbar">
-			<span class="donationbar-value">
-				<em class="donationbar-cover"></em>
-			</span>
-		</div>
+		<script type="text/javascript">
+			$(function() {
+			
+				var options = {
+					target: "4200", 
+					current: "data/donationbar-data.txt",
+					color_bar: "#535353",
+				};
+				var myBar =$.donationbar("donationbar", options);
+				myBar.draw();
+			});
+		</script>
+		<div id="donationbar"></div>
 	</body>
 </html>
